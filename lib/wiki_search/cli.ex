@@ -29,6 +29,10 @@ defmodule WikiSearch.CLI do
 		"""
 	end
 
+	# def process(_) do
+	# 	IO.puts ""
+	# end
+
 	defp string_format(string) do
 		String.replace(string, ". ", ". \n")
 		|> IO.puts

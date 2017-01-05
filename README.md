@@ -63,3 +63,17 @@ Served and eaten refrigerator cold, mango pudding has a rich and creamy texture.
 Some Chinese restaurants make the mango pudding in fish shape because goldfish or koi expresses good luck in Chinese culture.
 On the other hand, factory-made mango pudding does not contain fresh mangoes and instead, consists of mango essence and either gelatin or agar.
 ```
+
+## Help
+
+Use the following for help.
+
+```sh
+./wiki_search --help
+```
+
+#### OR
+
+```sh
+./wiki_search -h
+```
