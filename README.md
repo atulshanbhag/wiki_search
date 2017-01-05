@@ -77,3 +77,7 @@ Use the following for help.
 ```sh
 ./wiki_search -h
 ```
+
+## Credits
+
+[Elixir console application with JSON parsing. Let’s print to console!](https://hackernoon.com/elixir-console-application-with-json-parsing-lets-print-to-console-b701abf1cb14#.7jzp81sca)
