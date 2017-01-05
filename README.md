@@ -2,6 +2,28 @@
 
 Command Line Interface (CLI) for Wikipedia Search. Gives the first paragraph on the Wikipedia page.
 
+## Installation
+
+### Ubuntu 
+
+Erlang dependencies are necessary at the moment. 
+
+```sh
+sudo apt-get install erlang-dev
+```
+### MacOS
+
+There are 2 options here, 
+
+1. Install Erlang as given here -> 
+[Install Erlang](http://erlang.org/doc/installation_guide/INSTALL.html)
+
+2. Install Elixir as given here ->
+[Install Elixir](http://elixir-lang.org/install.html#mac-os-x)
+(I prefer this since this downloads the Erlang dependencies that are required too.) 
+
+## Usage
+
 To use, clone this repository onto the system
 
 ```sh
@@ -9,7 +31,7 @@ git clone https://github.com/atulshanbhag/wiki_search.git
 cd wiki_search/
 ./wiki_search <search-query>
 ```
-### Example
+## Example
 
 ```sh
 ./wiki_search Mango
