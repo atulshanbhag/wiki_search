@@ -11,6 +11,7 @@ defmodule WikiSearch.CLI do
 		case parse do
 			{[help: true], _, _} -> :help
 			{_, [search_term], _} -> {search_term}
+			_ -> :empty
 		end
 	end
 
@@ -29,9 +30,12 @@ defmodule WikiSearch.CLI do
 		"""
 	end
 
-	# def process(_) do
-	# 	IO.puts ""
-	# end
+	def process(:empty) do
+		IO.puts """
+		No query found
+		Try 'wiki_search --help' for help
+		"""
+	end
 
 	defp string_format(string) do
 		String.replace(string, ". ", ". \n")
