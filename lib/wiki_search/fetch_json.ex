@@ -1,7 +1,6 @@
 defmodule WikiSearch.JSONFetch do
   def fetch(search_term) do
-		search_term
-		|> wiki_url
+		wiki_url(search_term)
 		|> HTTPoison.get
 		|> handle_json
   end
