@@ -18,7 +18,9 @@ defmodule WikiSearch.JSONFetch do
   end
 
   defp handle_json({_, %{status_code: _, body: _body}}) do
-  	IO.puts "Something went wrong. " <>
-  					"Please check your Internet connection."
+  	IO.puts """
+  	Something went wrong.  
+  	Please check your Internet connection.
+  	"""
   end
 end
